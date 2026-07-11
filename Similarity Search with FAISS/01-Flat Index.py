@@ -23,3 +23,19 @@ D, I = index.search(xq, k)
 
 print(I)
 print(D)
+
+
+
+# FLOW :
+
+# Vectors
+#     ↓
+# Create Flat Index
+#     ↓
+# Add vectors
+#     ↓
+# Query
+#     ↓
+# Compare against ALL vectors
+#     ↓
+# Return Top-k
