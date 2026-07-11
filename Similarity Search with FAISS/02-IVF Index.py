@@ -36,3 +36,26 @@ D, I = index.search(xq, k)
 
 print(I)
 print(D)
+
+
+
+
+
+# FLOW :
+
+# Vectors
+#     ↓
+# Create Empty IVF Index
+#     ↓
+# Train
+# (k-means learns centroids)
+#     ↓
+# Add vectors to clusters
+#     ↓
+# Query
+#     ↓
+# Find nearest clusters
+#     ↓
+# Search only those clusters
+#     ↓
+# Return Top-k
