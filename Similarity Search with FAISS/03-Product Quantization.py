@@ -29,3 +29,23 @@ D, I = index.search(xq, k)
 
 print(I)
 print(D)
+
+
+
+
+# FLOW :
+
+# Vectors
+#     ↓
+# Split into sub-vectors
+#     ↓
+# Learn codebooks
+#     ↓
+# Compress vectors
+#     ↓
+# Store PQ codes
+#     ↓
+# Query
+#     ↓
+# Approximate distance
+# using lookup tables
