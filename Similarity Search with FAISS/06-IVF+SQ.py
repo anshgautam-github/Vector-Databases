@@ -31,3 +31,15 @@ D, I = index.search(xq, k)
 
 print(I)
 print(D)
+
+
+# Vectors
+#       ↓
+# Create clusters
+#       ↓
+# Compress dimensions
+#       ↓
+# Store compressed vectors
+# inside clusters
+#       ↓
+# Search
